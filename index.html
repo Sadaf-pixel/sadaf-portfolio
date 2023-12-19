@@ -28,7 +28,9 @@
       </section>
       <section class='aboutMe' id='aboutMe'>
         <h1>About Me</h1>
-        <p>I am an undergraduate student, currently in 3rd year pursuing Computer Science Engineering specialized in IoT, Blockchain and Cyber Security from Future Institute of Technology. I am an Explorer, Learner and an Otaku. I'm into Front-end Web Dev. I also like coding. I have also participated in different hackathons and also contributed in many open-source organisations. I also have keen interest in Web3, metaverse. If anyone is up for collaboration please connect with me .</p>
+        <p>I am Final Year student pursuing B Tech in CSE(IoT, Cyber Security and Blockchain Technology). I am a quick learner, always seeking opportunities to expand my knowledge. I bring growth and adaptable mindset to
+          the table and committed to continuous improvement. I am reliable and eager to embrace challenges and learn from
+          experiences also I am good at working under pressure.</p>
       </section>
       <section class='skillsAndProjects'>
         <div class='skills' id='skills'>
@@ -48,21 +50,42 @@
             <img src='home_9.svg'/>
             <div class='projectDescription'>
               <h4>Smart Home</h4>
-              <p>In this project the user can control the light, fan and all other home appliances with just one-click. It comes with Wi-Fi technology so that if the user is away from and forgets to turn off any appliance he can easily access it remotely.</p>
+              <ul>
+                <li>Integrated IoT for remote household device management via Arduino.</li>
+                <li>Utilized MQ2 & DHT11 sensors for continuous indoor air quality monitoring</li>
+                <li>Enabled mobile app control via HC 05 Bluetooth for enhanced convenience.</li>
+              </ul>
+            </div>
+          </div> <br>
+          <div class='projectContainer'>
+            <img width="60" height="60"  src='https://img.icons8.com/?size=64&id=4iKImf8GW8Sy&format=png'/>
+            <div class='projectDescription'>
+              <h4>Real-Time Water monitoring System</h4>
+              <ul>
+                <li>Engineered real-time water monitoring using Node MCU ESP 32 and 4 sensors for quality assessment and waste prevention.</li>
+                <li>Created user-friendly interface for accessing tank data and receiving alerts.</li>
+                <li>Stored sensor data on cloud-based Excel sheet, optimizing water management efficiency.</li>
+              </ul>
             </div>
           </div>
           <div class='projectContainer'>
-            <img src='news_10.svg'/>
+            <img width="50" height="20"  src="web.png"/>
             <div class='projectDescription'>
-              <h4>Covid Api Tracker</h4>
-              <p>In 2020, there was a worldwide epidemic by Corona Virus aka Covid. This project helps the user to stay updated of the live scenario caused due to the said virus. It informs about the number of recoveries, deaths , affected etc by the virus. </p>
+              <h4>E-Commerce Platform</h4>
+              <ul>
+                <li>Established an e-commerce site with 50+ diverse products for a smooth user experience.               </li>
+                <li>Utilized HTML 5, CSS 3, and JavaScript to craft an engaging, user-friendly interface.</li>
+                <li>Applied responsive design, ensuring accessibility on all devices for an enhanced user experience.</li>
+              </ul> 
+            
+              
             </div>
           </div>
         </div>
       </section>
       <section class='contactForm' id='contactForm'>
         <h1>Let's Connect!</h2>
-        <div class='formGroup'>
+        <!-- <div class='formGroup'>
           <label for='name'>Enter Full Name</label><br/>
           <input type='text' id='name' placeholder='Full Name'/>
         </div>
@@ -74,7 +97,23 @@
           <label for='message'>Message</label><br/>
           <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
         </div>
-        <button class='submitButton' onClick={submit()}>Connect</button>
+        <button class='submitButton' onClick={submit()}>Connect</button> -->
+        <a href="mailto:snasim695@gmail.com" ></a>
+        <form id='contactForm' class="contactForm" action="https://formsubmit.co/snasim695@gmail.com" method="POST" >
+          <div class="formGroup">
+            <input type="text" name="name" placeholder="Name" required > <br>
+          </div>
+          <div class="formGroup">
+            <input type="email" name="email" placeholder="Email" required><br>
+          </div>
+          <div class="formGroup">
+            <textarea name="text" placeholder="text" cols="25" rows="4"> </textarea>
+          </div>
+          <div class="formGroup">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+    
         <h5>Social Media Sites</h5>
         <a href="https://www.linkedin.com/in/sadaf-nasim-935438202/" target=”_blank”>Linkedin</a>
         <a href="https://github.com/Sadaf-pixel" target=”_blank”>Github</a>
